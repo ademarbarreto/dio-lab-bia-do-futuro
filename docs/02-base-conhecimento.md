@@ -39,9 +39,8 @@ Os dados são carregados via código através da função em python carregar_dad
 ##### ==============================================================
 ### Carregar dados da Base de Conhecimento
 ##### ==============================================================
-
-@st.cache_data
-def carregar_dados():
+  
+    def carregar_dados():
     """
     Load financial data from JSON and CSV files.
     
@@ -75,12 +74,15 @@ def carregar_dados():
 
     return perfil, produtos, historico, transacoes
 
+
+perfil, produtos, historico, transacoes = carregar_dados()
+
 ### Como os dados são usados no prompt?
 
 Os dados foram carregados via código conforme descrito acima  e injetados no prompt. Para sistemas mais robustos é necessário que estes dados sejam carregados dinamicamente para permitir a atualização e acréscimo de novo dados. O código acima permite que estes dados possam carregar dinamicamente, pois podemos executá-lo a cada mudança da nossa base de dados.
 
 ### DADOS DO CLIENTE - Arquivo data/perfil_investidor.json
-
+```
 {
   "nome": "João Silva",
   "idade": 32,
@@ -105,19 +107,25 @@ Os dados foram carregados via código conforme descrito acima  e injetados no pr
   ]
 }
 
+```
+
+
+
 ### HISTÓRICO DO CLIENTE - data/historico_atendimento.csv
 
+```
 data,canal,tema,resumo,resolvido
 2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
 2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
 2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
 2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
 2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
-
+```
 
 
 ### PRODUTOS DISPONÍVEIS PARA O CLIENTE data/produtos_financeiros.json
 
+```
 [
   {
     "nome": "Tesouro Selic",
@@ -160,9 +168,11 @@ data,canal,tema,resumo,resolvido
     "indicado_para": "Perfil arrojado com foco no longo prazo"
   }
 ]
+```
 
 ### HISTÓRICO DE TRANSAÇÕES data/transacoes.csv
 
+```
 data,descricao,categoria,valor,tipo
 2025-10-01,Salário,receita,5000.00,entrada
 2025-10-02,Aluguel,moradia,1200.00,saida
@@ -174,7 +184,7 @@ data,descricao,categoria,valor,tipo
 2025-10-15,Conta de Luz,moradia,180.00,saida
 2025-10-20,Academia,saude,99.00,saida
 2025-10-25,Combustível,transporte,250.00,saida
-
+```
 
 ---
 
@@ -223,7 +233,5 @@ PRODUTOS FINANCEIROS DISPONÍVEIS:
 - LCI/LCA
 - Fundo Multimercado
 - Fundo de Ações
-
-
 ...
 ```
