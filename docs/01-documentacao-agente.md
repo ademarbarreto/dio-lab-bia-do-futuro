@@ -5,12 +5,12 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-O agente ADE é um Gestor Pessoal Financeiro para classificação automática de despesas, analisar hábitos de consumo e planejamento financeiro.
+O agente ADE é um Gestor Pessoal Financeiro para classificação automática de despesas, analisar hábitos de consumo, resumir gastos e planejamento financeiro.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-Utilizando dados financeiros do próprio cliente, o Gestor financeiro ajudará o cliente a analisar seus gastos atuais, com a sumarização dos mesmos, explicar como a reserva financeira é importante e classificar as despesas analisando os hábitos de consumo e sem recomendar investimentos.
+Utilizando dados financeiros do próprio cliente, o Gestor financeiro ajudará o cliente a analisar seus gastos atuais, com a sumarização dos mesmos, explicar como a reserva financeira é importante e classificar as despesas analisando os hábitos de consumo, não sugere produtos financeiros ou sem recomendar investimentos.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
