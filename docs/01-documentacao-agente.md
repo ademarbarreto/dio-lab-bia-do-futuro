@@ -12,6 +12,10 @@ O agente ADE é um Gestor Pessoal Financeiro para classificação automática de
 
 Utilizando dados financeiros do próprio cliente, o Gestor financeiro ajudará o cliente a analisar seus gastos atuais, com a sumarização dos mesmos, explicar como a reserva financeira é importante e classificar as despesas analisando os hábitos de consumo, não sugere produtos financeiros ou sem recomendar investimentos.
 
+#### Antes de investir melhor é preciso gastar melhor.
+
+#### Esse é o propósito do ADE.
+
 ### Público-Alvo
 > Quem vai usar esse agente?
 
