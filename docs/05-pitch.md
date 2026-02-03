@@ -42,7 +42,7 @@ melhorar sua organização financeira.
 O cliente interage com o ADE por meio de um chat simples.
 Por exemplo,o cliente pergunta:
 
-## Pergu“Não consigo guardar dinheiro. O que pode estar acontecendo?”
+## Pergunta: “Não consigo guardar dinheiro. O que pode estar acontecendo?”
 
 O ADE analisa os gastos disponíveis na base de conhecimento,  classifica as despesas por categoria e apresenta um resumo claro dos hábitos de consumo do cliente.
 
