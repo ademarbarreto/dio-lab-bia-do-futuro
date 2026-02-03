@@ -67,9 +67,9 @@ O impacto dessa solução é promover educação financeira acessível, ajudar p
 uma reserva de emergência, reduzir o descontrole financeiro e trazer mais tranquilidade
 para o dia a dia.
 
-## Antes de investir melhor é preciso gastar melhor.
+#### Antes de investir melhor é preciso gastar melhor.
 
-## Esse é o propósito do ADE.
+#### Esse é o propósito do ADE.
 
 Muito obrigado.
 
@@ -77,11 +77,11 @@ Muito obrigado.
 
 ## Checklist do Pitch
 
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+- [x] Duração máxima de 3 minutos
+- [x] Problema claramente definido
+- [x] Solução demonstrada na prática
+- [x] Diferencial explicado
+- [x] Áudio e vídeo com boa qualidade
 
 ---
 
