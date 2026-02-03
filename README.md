@@ -6,10 +6,11 @@ O Agente ADE (Gestor Pessoal Financeiro Inteligente) é uma solução proprietá
 
 ### Documentação complementar
 
-##### Base de Conhecimento:  [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 ##### Documentação Agente: [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
+##### Base de Conhecimento:  [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 ##### Documentação Prompts: [`docs/03-prompts.md`](./docs/03-prompts.md)
-##### Documentação Prompts: [`docs/04-metricas.md`](./docs/04-metricas.md)
+##### Documentação Métricas: [`docs/04-metricas.md`](./docs/04-metricas.md)
+##### Documentação Pitch: [`docs/04-pitch.md`](./docs/05-pitch.md)
 
 ## 🧠 Inteligência Artificial (OpenAI)
 
