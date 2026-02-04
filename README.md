@@ -1,6 +1,8 @@
-## Agente ADE: Gestor Pessoal Financeiro Inteligente
+## 🚀 Nome do Projeto 
 
-## 📌 Descrição
+### Agente ADE: Gestor Pessoal Financeiro Inteligente
+
+## 📌 Visão Geral
 
 Este projeto utiliza Inteligência Artificial para analisar hábitos financeiros, classificar despesas automaticamente e gerar insights personalizados.
 
@@ -9,9 +11,10 @@ O Agente ADE (Gestor Pessoal Financeiro Inteligente) é uma solução proprietá
 
 ## ⚙️ Funcionalidades do agente ADE
 ```
+✅ Possui Base de Conhecimento carregada via código em Python
 ✅ Classificação automática de despesas
 ✅ Análise de padrões de consumo
-✅ Respostas inteligentes via LLM (OpenAI)
+✅ Respostas inteligentes via LLM (OpenAI API)
 ✅ Interface interativa com Streamlit (chat com o cliente)
 ✅ Gerar insights personalizados
 ✅ Só utiliza dados obtidos pelos arquivos da Base Conhecimento
@@ -33,7 +36,7 @@ O Agente ADE (Gestor Pessoal Financeiro Inteligente) é uma solução proprietá
 ✅ Documentação Métricas: [`docs/04-metricas.md`](./docs/04-metricas.md)
 ✅ Documentação Pitch: [`docs/04-pitch.md`](./docs/05-pitch.md)
 ```
-## 🧠 Inteligência Artificial (OpenAI)
+## 🧠 Inteligência Artificial (OpenAI API)
 
 O núcleo do Agente ADE é alimentado pelo modelo gpt-4.1-mini da OpenAI, selecionado por suas capacidades técnicas superiores:
 ```
@@ -60,7 +63,7 @@ A inteligência do agente é sustentada por uma infraestrutura de dados composta
 ```mermaid
 flowchart TD
     A[Cliente] -->|Mensagem| B["Streamlit (Chat)"]
-    B --> C[LLM - OPENAI]
+    B --> C[LLM - OPENAI API]
     C --> D[Base de Conhecimento]
     D --> C
     C --> E[Validação]

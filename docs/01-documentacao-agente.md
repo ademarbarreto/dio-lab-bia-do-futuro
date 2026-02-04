@@ -40,11 +40,12 @@ Paciente, informal e atento as reinvidações do cliente, polido que responde a 
 Informal e acessível, educado, pró-ativo, atento
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "ex: Como posso organizar melhor seus gastos mensais?"]
-- Confirmação: [ex: "Organizar as finanças pessoais começa por entender suas receitas e despesas mensais"]
-- Erro/Limitação: [ex: "No contexto das suas finanças pessoais e investimentos, não tenho informações sobre eventos ou blocos de carnaval no Rio de Janeiro. Meu foco é ajudar com conceitos financeiros e seu objetivo de construir uma reserva de emergência."]
-- Erro/Limitação: [ex: "A resposta violou as regras de conformidade"]
-
+```
+✅ Saudação: [ex: "ex: Como posso organizar melhor seus gastos mensais?"]
+✅ Confirmação: [ex: "Organizar as finanças pessoais começa por entender suas receitas e despesas mensais"]
+✅ Erro/Limitação: [ex: "No contexto das suas finanças pessoais e investimentos, não tenho informações sobre eventos ou blocos de carnaval no Rio de Janeiro. Meu foco é ajudar com conceitos financeiros e seu objetivo de construir uma reserva de emergência."]
+✅ Erro/Limitação: [ex: "A resposta violou as regras de conformidade"]
+```
 ---
 
 ## Arquitetura
@@ -54,7 +55,7 @@ Informal e acessível, educado, pró-ativo, atento
 ```mermaid
 flowchart TD
     A[Cliente] -->|Mensagem| B["Streamlit (Chat)"]
-    B --> C[LLM]
+    B --> C["LLM (OPENAI API)"]
     C --> D[Base de Conhecimento]
     D --> C
     C --> E[Validação]
