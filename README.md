@@ -8,7 +8,7 @@ Este projeto utiliza Inteligência Artificial para analisar hábitos financeiros
 O Agente ADE (Gestor Pessoal Financeiro Inteligente) é uma solução proprietária de inteligência artificial generativa projetada para a gestão estratégica de finanças pessoais. Este projeto transforma dados financeiros brutos em inteligência acionável, atuando como um consultor autônomo que antecipa necessidades e personaliza sugestões de investimento com base no contexto real do usuário.
 
 ## ⚙️ Funcionalidades do agente ADE
-
+```
 ✅ Classificação automática de despesas
 ✅ Análise de padrões de consumo
 ✅ Respostas inteligentes via LLM (OpenAI)
@@ -24,25 +24,25 @@ O Agente ADE (Gestor Pessoal Financeiro Inteligente) é uma solução proprietá
 ❌ Não responde a assuntos que não sejam financeiros
 ❌ NÃO faz suposições
 ❌ Se a informação não estiver no contexto, diga claramente que não sabe.
-
+```
 ### Documentação complementar
-
+```
 ✅ Documentação Agente: [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
 ✅ Base de Conhecimento:  [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
 ✅ Documentação Prompts: [`docs/03-prompts.md`](./docs/03-prompts.md)
 ✅ Documentação Métricas: [`docs/04-metricas.md`](./docs/04-metricas.md)
 ✅ Documentação Pitch: [`docs/04-pitch.md`](./docs/05-pitch.md)
-
+```
 ## 🧠 Inteligência Artificial (OpenAI)
 
 O núcleo do Agente ADE é alimentado pelo modelo gpt-4.1-mini da OpenAI, selecionado por suas capacidades técnicas superiores:
-
+```
 ✅ Seguimento de Instruções: O gpt-4.1-mini oferece alta precisão na execução de diretrizes complexas e governança financeira.
 
 ✅ Janela de Contexto: Com suporte a até 1 milhão de tokens, o modelo processa simultaneamente extensos históricos de transações e catálogos de produtos.
 
 ✅ Consultoria Proativa: A LLM é configurada para cruzar dados do perfil do usuário com oportunidades de mercado, minimizando alucinações e garantindo respostas fundamentadas na base de conhecimento.
-
+```
 ## 📊 Base de Conhecimento
 
 A inteligência do agente é sustentada por uma infraestrutura de dados composta por quatro arquivos fundamentais localizados na pasta data/:
