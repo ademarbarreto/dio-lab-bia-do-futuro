@@ -11,7 +11,7 @@
 O ADE é um Assistente Digital de Investimentos criado para ajudar pessoas a organizarem melhor seus gastos e planejarem uma vida financeira mais equilibrada. 
 Atualmente muitas pessoas enfrentam dificuldades para controlar suas finanças pessoais. Elas não sabem exatamente para onde o dinheiro está indo.
 Sem esse controle, fica muito difícil ter uma reserva financeira para imprevistos, como uma demissão ou a perda de uma fonte de renda.
-Não classificam corretamentesua s despesas mensais e acabam não conseguindo poupar.
+Não classificam corretamente suas despesas mensais e acabam não conseguindo poupar.
 
 
 ### 2. A Solução (1 min)
